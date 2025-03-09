@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pickle
+import sklearn
 
 # Load the saved model
 with open('depression_model.pkl', 'rb') as f:
