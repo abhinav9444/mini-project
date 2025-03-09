@@ -67,4 +67,4 @@ if submit_button:
     if prediction[0] == 0:
         st.write("Prediction: Not Depressed")
     else:
-        st.write("Prediction: Depressed")
+        st.write("Prediction: Likely Depressed")
